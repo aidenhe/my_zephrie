@@ -1,0 +1,9 @@
+<?php
+
+class pl_footer extends Mvc\Bigpipe 
+{
+	public $tpl = 'view/page/footer.phtml';
+	public $tplpath = 'view/page/';
+	public $isSkeleton = flase;
+
+}

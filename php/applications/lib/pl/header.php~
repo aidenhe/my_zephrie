@@ -1,0 +1,15 @@
+<?php
+
+class pl_header extends Mvc\Bigpipe 
+{
+	public $tpl = 'view/page/header.phtml';
+	public $tplpath = 'view/page/';
+	public $isSkeleton = flase;
+	public function prepareData()
+	{
+		
+		$run = new model_dw_mymodel();
+		$this->daasdda = $run->create();
+	
+	}
+}

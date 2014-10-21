@@ -1,0 +1,54 @@
+mvc.lo: /root/myzephir/mvc/ext/mvc.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/root/myzephir/mvc/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /root/myzephir/mvc/ext/mvc.c -o mvc.lo 
+kernel/main.lo: /root/myzephir/mvc/ext/kernel/main.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/root/myzephir/mvc/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /root/myzephir/mvc/ext/kernel/main.c -o kernel/main.lo 
+kernel/memory.lo: /root/myzephir/mvc/ext/kernel/memory.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/root/myzephir/mvc/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /root/myzephir/mvc/ext/kernel/memory.c -o kernel/memory.lo 
+kernel/exception.lo: /root/myzephir/mvc/ext/kernel/exception.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/root/myzephir/mvc/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /root/myzephir/mvc/ext/kernel/exception.c -o kernel/exception.lo 
+kernel/hash.lo: /root/myzephir/mvc/ext/kernel/hash.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/root/myzephir/mvc/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /root/myzephir/mvc/ext/kernel/hash.c -o kernel/hash.lo 
+kernel/debug.lo: /root/myzephir/mvc/ext/kernel/debug.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/root/myzephir/mvc/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /root/myzephir/mvc/ext/kernel/debug.c -o kernel/debug.lo 
+kernel/backtrace.lo: /root/myzephir/mvc/ext/kernel/backtrace.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/root/myzephir/mvc/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /root/myzephir/mvc/ext/kernel/backtrace.c -o kernel/backtrace.lo 
+kernel/object.lo: /root/myzephir/mvc/ext/kernel/object.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/root/myzephir/mvc/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /root/myzephir/mvc/ext/kernel/object.c -o kernel/object.lo 
+kernel/array.lo: /root/myzephir/mvc/ext/kernel/array.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/root/myzephir/mvc/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /root/myzephir/mvc/ext/kernel/array.c -o kernel/array.lo 
+kernel/extended/array.lo: /root/myzephir/mvc/ext/kernel/extended/array.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/root/myzephir/mvc/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /root/myzephir/mvc/ext/kernel/extended/array.c -o kernel/extended/array.lo 
+kernel/string.lo: /root/myzephir/mvc/ext/kernel/string.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/root/myzephir/mvc/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /root/myzephir/mvc/ext/kernel/string.c -o kernel/string.lo 
+kernel/fcall.lo: /root/myzephir/mvc/ext/kernel/fcall.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/root/myzephir/mvc/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /root/myzephir/mvc/ext/kernel/fcall.c -o kernel/fcall.lo 
+kernel/require.lo: /root/myzephir/mvc/ext/kernel/require.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/root/myzephir/mvc/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /root/myzephir/mvc/ext/kernel/require.c -o kernel/require.lo 
+kernel/file.lo: /root/myzephir/mvc/ext/kernel/file.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/root/myzephir/mvc/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /root/myzephir/mvc/ext/kernel/file.c -o kernel/file.lo 
+kernel/operators.lo: /root/myzephir/mvc/ext/kernel/operators.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/root/myzephir/mvc/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /root/myzephir/mvc/ext/kernel/operators.c -o kernel/operators.lo 
+kernel/concat.lo: /root/myzephir/mvc/ext/kernel/concat.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/root/myzephir/mvc/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /root/myzephir/mvc/ext/kernel/concat.c -o kernel/concat.lo 
+kernel/variables.lo: /root/myzephir/mvc/ext/kernel/variables.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/root/myzephir/mvc/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /root/myzephir/mvc/ext/kernel/variables.c -o kernel/variables.lo 
+kernel/filter.lo: /root/myzephir/mvc/ext/kernel/filter.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/root/myzephir/mvc/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /root/myzephir/mvc/ext/kernel/filter.c -o kernel/filter.lo 
+kernel/iterator.lo: /root/myzephir/mvc/ext/kernel/iterator.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/root/myzephir/mvc/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /root/myzephir/mvc/ext/kernel/iterator.c -o kernel/iterator.lo 
+kernel/exit.lo: /root/myzephir/mvc/ext/kernel/exit.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/root/myzephir/mvc/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /root/myzephir/mvc/ext/kernel/exit.c -o kernel/exit.lo 
+mvc/applications.lo: /root/myzephir/mvc/ext/mvc/applications.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/root/myzephir/mvc/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /root/myzephir/mvc/ext/mvc/applications.zep.c -o mvc/applications.lo 
+mvc/autoload.lo: /root/myzephir/mvc/ext/mvc/autoload.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/root/myzephir/mvc/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /root/myzephir/mvc/ext/mvc/autoload.zep.c -o mvc/autoload.lo 
+mvc/bigpipe.lo: /root/myzephir/mvc/ext/mvc/bigpipe.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/root/myzephir/mvc/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /root/myzephir/mvc/ext/mvc/bigpipe.zep.c -o mvc/bigpipe.lo 
+mvc/controller.lo: /root/myzephir/mvc/ext/mvc/controller.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/root/myzephir/mvc/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /root/myzephir/mvc/ext/mvc/controller.zep.c -o mvc/controller.lo 
+$(phplibdir)/mvc.la: ./mvc.la
+	$(LIBTOOL) --mode=install cp ./mvc.la $(phplibdir)
+
+./mvc.la: $(shared_objects_mvc) $(MVC_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_mvc) $(MVC_SHARED_LIBADD)
+

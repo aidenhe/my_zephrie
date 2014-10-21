@@ -1,0 +1,9 @@
+<?php
+
+class pl_main extends Mvc\Bigpipe 
+{
+	public $tpl = 'view/page/main.phtml';
+	public $tplpath = 'view/page/';
+	public $isSkeleton = flase;
+	
+}
